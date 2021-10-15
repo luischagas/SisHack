@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SisHack.Domain.Shared\SisHack.Domain.Shared.csproj" />
+    <ProjectReference Include="..\SisHack.Domain\SisHack.Domain.csproj" />
+    <ProjectReference Include="..\SisHack.Infrastructure\SisHack.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
